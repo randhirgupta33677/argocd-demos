@@ -10,7 +10,7 @@ spec:
     targetRevision: main
     path: multicluster/online-shop # Path within the repo
   destination:
-    server: https://kubernetes.default.svc # Production cluster API server URL here, run `argocd cluster list` to get the URL
+    server: https://172.31.26.112:33893 # Production cluster API server URL here, run `argocd cluster list` to get the URL
     namespace: default
   syncPolicy:
     automated:
